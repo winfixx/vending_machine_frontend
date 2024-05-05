@@ -1,0 +1,31 @@
+<script setup lang="ts">
+defineProps<{
+  disabled: boolean
+}>()
+</script>
+
+<template>
+  <button :disabled="disabled">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="29"
+      :fill="disabled ? 'gray' : 'white'"
+      class="bi bi-plus"
+      viewBox="0 0 16 16"
+      style="cursor: pointer"
+    >
+      <path
+        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+      />
+    </svg>
+  </button>
+</template>
+
+<style scoped lang="scss">
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+</style>

@@ -1,0 +1,6 @@
+export const REGISTRATION_ROUTE = '/registration'
+export const LOGIN_ROUTE = '/login'
+export const HOME_ROUTE = '/'
+export const VENDING_MACHINE_ROUTE = '/vendingMachine'
+export const DRINK_ROUTE = '/drink'
+export const ADMIN_ROUTE = '/admin'
